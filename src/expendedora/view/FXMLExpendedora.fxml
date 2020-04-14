@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="443.0" prefWidth="619.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="expendedora.controller.FXMLExpendedoraController">
+   <children>
+      <Label fx:id="lblProducto" prefHeight="47.0" prefWidth="175.0" text="Elige Producto:">
+         <font>
+            <Font name="MS Gothic" size="12.0" />
+         </font>
+         <VBox.margin>
+            <Insets left="20.0" />
+         </VBox.margin>
+      </Label>
+      <HBox alignment="CENTER" nodeOrientation="LEFT_TO_RIGHT" prefHeight="144.0" prefWidth="599.0" spacing="40.0">
+         <children>
+            <Button fx:id="btnCompra1" mnemonicParsing="false" onAction="#OnActionComprar1" prefHeight="72.0" prefWidth="170.0" text="1">
+               <HBox.margin>
+                  <Insets right="-20.0" />
+               </HBox.margin></Button>
+            <Button fx:id="btnCompra2" mnemonicParsing="false" onAction="#OnActionComprar2" prefHeight="72.0" prefWidth="170.0" text="2">
+               <HBox.margin>
+                  <Insets right="-20.0" />
+               </HBox.margin></Button>
+            <Button fx:id="btnCompra3" mnemonicParsing="false" onAction="#OnActionComprar3" prefHeight="72.0" prefWidth="170.0" text="3">
+               <HBox.margin>
+                  <Insets right="-20.0" />
+               </HBox.margin></Button>
+            <Button fx:id="btnCompra4" mnemonicParsing="false" onAction="#OnActionComprar4" prefHeight="72.0" prefWidth="170.0" text="4">
+               <HBox.margin>
+                  <Insets right="-20.0" />
+               </HBox.margin></Button>
+            <Button fx:id="btnCompra5" mnemonicParsing="false" onAction="#OnActionComprar5" prefHeight="72.0" prefWidth="170.0" text="5">
+               <opaqueInsets>
+                  <Insets right="20.0" />
+               </opaqueInsets>
+               <HBox.margin>
+                  <Insets right="-20.0" />
+               </HBox.margin>
+            </Button>
+            <Button fx:id="btnCompra6" mnemonicParsing="false" onAction="#OnActionComprar6" prefHeight="72.0" prefWidth="170.0" text="6" textAlignment="CENTER" />
+         </children>
+         <opaqueInsets>
+            <Insets />
+         </opaqueInsets>
+         <VBox.margin>
+            <Insets left="10.0" right="10.0" />
+         </VBox.margin>
+      </HBox>
+      <HBox prefHeight="106.0" prefWidth="619.0" spacing="10.0">
+         <children>
+            <Label fx:id="lblDinero" prefHeight="18.0" prefWidth="106.0" text="Introduce Dinero:">
+               <HBox.margin>
+                  <Insets left="10.0" right="-110.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="MS Gothic" size="12.0" />
+               </font>
+            </Label>
+            <Button id="2" fx:id="btnCredito2E" mnemonicParsing="false" onAction="#OnActionIngresaDinero" text="2€">
+               <HBox.margin>
+                  <Insets left="50.0" top="50.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="DejaVu Sans Mono Bold Oblique" size="12.0" />
+               </font>
+            </Button>
+            <Button id="1" fx:id="btnCredito1E" mnemonicParsing="false" onAction="#OnActionIngresaDinero" text="1€" textAlignment="CENTER">
+               <HBox.margin>
+                  <Insets top="50.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="DejaVu Sans Mono Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button id="0.50" fx:id="btnCredito50C" mnemonicParsing="false" onAction="#OnActionIngresaDinero" text="50cent">
+               <HBox.margin>
+                  <Insets top="50.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="DejaVu Sans Mono Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button id="200" fx:id="btnCredito20C" mnemonicParsing="false" onAction="#OnActionIngresaDinero" text="20 cent">
+               <HBox.margin>
+                  <Insets top="50.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="DejaVu Sans Mono Bold Oblique" size="12.0" />
+               </font>
+            </Button>
+            <Button id="100" fx:id="btnCredito10C" mnemonicParsing="false" onAction="#OnActionIngresaDinero" text="10 cent">
+               <HBox.margin>
+                  <Insets top="50.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="DejaVu Sans Mono Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button id="50" fx:id="btnCredito5C" mnemonicParsing="false" onAction="#OnActionIngresaDinero" text="5 cent">
+               <HBox.margin>
+                  <Insets top="50.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="DejaVu Sans Mono Bold Oblique" size="12.0" />
+               </font>
+            </Button>
+            <Button id="20" fx:id="btnCredito2C" mnemonicParsing="false" onAction="#OnActionIngresaDinero" text="2 cent">
+               <HBox.margin>
+                  <Insets top="50.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="DejaVu Sans Mono Bold" size="12.0" />
+               </font>
+            </Button>
+            <Button id="10" fx:id="btnCredito1C" mnemonicParsing="false" onAction="#OnActionIngresaDinero" text="1 cent">
+               <HBox.margin>
+                  <Insets top="50.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="DejaVu Sans Mono Bold" size="12.0" />
+               </font>
+            </Button>
+         </children>
+      </HBox>
+      <VBox alignment="CENTER" prefHeight="81.0" prefWidth="619.0">
+         <children>
+            <Label fx:id="lblIntroducido" prefHeight="35.0" prefWidth="508.0" text="Cambio Disponible              Credito Introducido">
+               <font>
+                  <Font size="24.0" />
+               </font>
+            </Label>
+            <HBox prefHeight="32.0" prefWidth="619.0">
+               <children>
+                  <Label fx:id="lblCambio" alignment="CENTER" contentDisplay="TOP" prefHeight="30.0" prefWidth="118.0" text="0.00" textAlignment="CENTER" textFill="#d3c253">
+                     <HBox.margin>
+                        <Insets left="90.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="DejaVu Sans Mono Bold" size="18.0" />
+                     </font>
+                  </Label>
+                  <Label fx:id="lblCredito" alignment="CENTER" contentDisplay="CENTER" prefHeight="30.0" prefWidth="118.0" text="0.00" textAlignment="CENTER" textFill="#d3c253">
+                     <font>
+                        <Font name="DejaVu Sans Mono Bold" size="18.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="170.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+      <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" spacing="300.0">
+         <children>
+            <Button fx:id="btnDevolver" mnemonicParsing="false" onAction="#OnActionDevuelve" text="DEVOLVER" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
